@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  color: black;
+}
+
+header {
+  background-color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)), url('Background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-content {
+  z-index: 2;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255,255,255,0.8);
+  border-radius: 20px;
+  color: black;
+}
+
+
+.hero .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: yellow
+}
+
+.btn {
+  background-color: yellow;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+#about-us {
+  padding: 4rem 2rem;
+  justify-content: center;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#about-us h2 {
+  color: #000; /* Black */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#services {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#services h2 {
+  color: #000; /* Black */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#services li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#services .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ffff00; /* Yellow */
+  color: #000; /* Black */
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#portfolio {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#portfolio h2 {
+  color: #000; /* Black */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#portfolio ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#portfolio li {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#contact h2 {
+  color: #000; /* Black */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#contact form input, #contact form textarea {
+  display: block;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+#contact form button {
+  background: #ffff00; /* Yellow */
+  color: #000; /* Black */
+  padding: 00.75rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#faqs {
+  padding: 4rem 2rem;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+#faqs h2 {
+  color: #000; /* Black */
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#faqs p {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: yellow;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  clear: both;
+}
+
+img {
+  height: 200px; /* Set the height of the images */
+  width: 300px; /* Keep the aspect ratio */
+  border-radius: 15px; /* Add a border radius to make the edges smooth */
+  object-fit: cover; /* Ensure the image covers the entire area */
+  margin: 10px; /* Add some margin to the images */
+}
